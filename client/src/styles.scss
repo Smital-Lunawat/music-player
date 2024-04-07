@@ -1,0 +1,71 @@
+:root {
+  --toastify-toast-width: 32rem;
+  --toastify-toast-min-height: 5.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif, monospace;
+  font-size: 16px;
+  color: #b3b3b3;
+  background-color: #000;
+}
+
+.main {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.h1 {
+  padding-bottom: 1.6rem;
+
+  font-size: 3.6rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.h2 {
+  margin-top: 3.2rem;
+  padding-bottom: 1.6rem;
+
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.vip {
+  background-image: url("https://images.unsplash.com/photo-1580628119872-27a3716cfa9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80") !important;
+  background-size: cover !important;
+}
+
+// Temporary
+.note {
+  max-width: 80vw;
+  padding: 1rem;
+
+  position: absolute;
+  bottom: 3rem;
+
+  font-size: 1.4rem;
+  background-color: #121212;
+  border-radius: 3px;
+}
