@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spotify Clone
 
 ![project-image](https://i.ibb.co/BCQWZhs/Screenshot-2023-10-01-at-8-20-18-pm.png)
@@ -69,3 +70,7 @@ Please make sure to follow the code style and include tests for your changes.
 ## License
 
 This project is licensed under the MIT License.
+=======
+# music-player
+MERN Stack music app
+>>>>>>> e42c124c2ebb26606c44b1b4adc7aa5e38e3e10b
