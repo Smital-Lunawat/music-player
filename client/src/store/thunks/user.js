@@ -1,6 +1,6 @@
 import axios from "../../api/axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { error } from "console";
+// import { error } from "console";
 import { toast } from "react-toastify";
 
 export const loginUser = createAsyncThunk(

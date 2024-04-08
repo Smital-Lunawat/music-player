@@ -138,6 +138,8 @@ exports.isLoggedIn = catchAsync(async (req, res, next) => {
         process.env.JWT_SECRET
       );
 
+      console.log(decoded);
+
       const user = await User.findById(decoded.id)
         .populate('playlists')
         .populate('followedArtists', 'name img role')
