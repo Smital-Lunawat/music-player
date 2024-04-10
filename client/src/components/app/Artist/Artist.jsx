@@ -21,7 +21,7 @@ const Artist = () => {
     dispatch(getArtist(id));
   }, [id]);
 
-  const userFollowedArtist = (id) => {
+  const FollowedArtists = (id) => {
     let res = followedArtists.find((obj) => obj.id === id);
 
     return !!res;
@@ -35,7 +35,8 @@ const Artist = () => {
     dispatch(unfollowArtist(artist.id));
   };
 
-  const replaceQueueHandler = (songs) => {
+  const queryHandler
+   = (songs) => {
     if (songs.length > 0) dispatch(replaceQueue({ songs }));
   };
 
@@ -55,8 +56,9 @@ const Artist = () => {
           </div>
 
           <div className="artist__nav">
-            <RiPlayCircleFill onClick={() => replaceQueueHandler(artist.songs)} />
-            {!userFollowedArtist(artist.id) ? (
+            <RiPlayCircleFill onClick={() => queryHandler
+              (artist.songs)} />
+            {!FollowedArtists(artist.id) ? (
               <button onClick={followArtistHandler}>Follow</button>
             ) : (
               <button onClick={unfollowArtistHandler}>Following</button>
