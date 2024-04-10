@@ -11,7 +11,7 @@ const Home = () => {
     (state) => state.user.data,
   );
   const [topSongs, setTopSongs] = useState([]);
-  const [newReleases, setNewReleases] = useState([]);
+  const [newSongs, setNewSongs] = useState([]);
 
   // FIXME: Refactor and fix data lost on re-render
   useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
       const res2 = await axios.get(`/songs?sort=-createdAt&limit=5`);
 
       setTopSongs(res.data.data.songs);
-      setNewReleases(res2.data.data.songs);
+      setNewSongs(res2.data.data.songs);
     };
 
     fetcher();
@@ -35,11 +35,11 @@ const Home = () => {
             Hey, wanna listen some music !?
           </h1>
 
-          <h2 className="h2">Top Songs</h2>
+          <h2 className="h2">Trending Songs</h2>
           <SquareList list={topSongs} type={"song"} />
 
-          <h2 className="h2">New Releases</h2>
-          <SquareList list={newReleases} type={"song"} />
+          <h2 className="h2">New Songs</h2>
+          <SquareList list={newSongs} type={"song"} />
 
           {followedArtists.length > 0 && (
             <>
