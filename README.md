@@ -23,7 +23,7 @@ Follow these steps to set up the project on your local machine:
 
 ## Clone the Repository
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Smital-Lunawat/music-player.git)
 ```
 
 ## Navigate to project directories
