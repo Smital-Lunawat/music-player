@@ -12,8 +12,7 @@ Technologies used in the project:
 
 ## Basic Design and Wireframes
 You can find the basic design and wireframes for this project in the Figma link below:
-[Music App - Figma](https://www.figma.com/file/cncd5bOIgfjYWawF1Vld7E/Music-App?type=design&node-id=0%3A1&mode=design&t=Sv3zBjCZNekKpcqr-1)
-
+[Music App - Figma](https://www.figma.com/file/cncd5bOIgfjYWawF1Vld7E/Music-App?type=design&node-id=0%3A1&mode=design&t=Sv3zBjCZNekKpcqr-
 
 Follow these steps to set up the project on your local machine:
 
