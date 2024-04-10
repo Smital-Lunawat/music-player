@@ -27,8 +27,12 @@ git clone https://github.com/Smital-Lunawat/music-player.git
 ```
 
 ## Navigate to project directories
+```bash
 cd project-directory
+```
 
 ## Install Dependencies
+```bash
 npm install
+```
 
