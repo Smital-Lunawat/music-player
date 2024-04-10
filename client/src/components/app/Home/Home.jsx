@@ -32,7 +32,7 @@ const Home = () => {
         <div className="home__img" />
         <div className="home">
           <h1 className="h1" onClick={() => toast.success("Wow crazy")}>
-            Good evening, wanna listen some music !?
+            Hey, wanna listen some music !?
           </h1>
 
           <h2 className="h2">Top Songs</h2>

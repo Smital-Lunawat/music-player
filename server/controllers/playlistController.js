@@ -90,7 +90,7 @@ exports.updatePlaylist = catchAsync(async (req, res, next) => {
     const imgKit = await imagekit.upload({
       file: req.file.buffer,
       fileName: req.file.filename,
-      folder: 'spotify/playlists',
+      folder: 'Music-App/playlists',
     });
     data.img = imgKit.url;
   }

@@ -1,10 +1,10 @@
 .list {
   &--green {
-    color: #1db954;
+    color: #5356FF;
   }
 
   &__item {
-    color: #fff;
+    color: #3d3b40;
     border-radius: 3px;
 
     height: 7.2rem;
@@ -57,7 +57,7 @@
   }
 
   svg:not(:last-child) {
-    color: #1db954;
+    color: #5356FF;
   }
 }
 
@@ -74,7 +74,7 @@
 }
 
 .sq {
-  background: #1db954;
+  background: #5356FF;
   height: 10%;
   border-radius: 5px;
 }

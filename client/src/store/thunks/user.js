@@ -33,7 +33,7 @@ export const signupUser = createAsyncThunk(
         passwordConfirm,
       });
 
-      toast.success("Welcome to spotify!");
+      toast.success("Welcome to Music-App!");
 
       return { data: res.data.data.user, auth: true };
     } catch (err) {

@@ -3,7 +3,7 @@ import React from "react";
 import "./Library.scss";
 import { RiAddFill, RiBook3Line } from "react-icons/ri";
 import LibraryLink from "./LibraryLink.jsx";
-import likedSongsImg from "../../img/likedSongs.jpeg";
+import likedSongsImg from "../../img/heart.png";
 import { useDispatch, useSelector } from "react-redux";
 import { createPlaylist } from "../../store/thunks/user.js";
 

@@ -245,7 +245,7 @@ const Player = () => {
           </div>
         </>
       ) : (
-        <div className="player__note">Please select a song 🐈 . . .</div>
+        <div className="player__note"></div>
       )}
     </div>
   );

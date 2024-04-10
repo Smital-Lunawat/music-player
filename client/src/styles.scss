@@ -18,12 +18,12 @@ body {
   font-family: "Montserrat", sans-serif, monospace;
   font-size: 16px;
   color: #b3b3b3;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .main {
   height: 100vh;
-
+  color: #3d3b40;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr auto;
@@ -36,7 +36,7 @@ body {
 
   font-size: 3.6rem;
   line-height: 1;
-  color: #fff;
+  color: #3D3B40;
 }
 
 .h2 {
@@ -45,17 +45,14 @@ body {
 
   font-size: 2.4rem;
   line-height: 1;
-  color: #fff;
+  color: #3D3B40;
 }
 
 button {
   cursor: pointer;
 }
 
-.vip {
-  background-image: url("https://images.unsplash.com/photo-1580628119872-27a3716cfa9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80") !important;
-  background-size: cover !important;
-}
+
 
 // Temporary
 .note {
@@ -66,6 +63,6 @@ button {
   bottom: 3rem;
 
   font-size: 1.4rem;
-  background-color: #121212;
+  background-color: #DFF5FF;
   border-radius: 3px;
 }

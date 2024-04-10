@@ -8,7 +8,7 @@
 
   font: inherit;
   text-decoration: none;
-  color: inherit;
+  color: #3d3b40;
   border-radius: 6px;
 
   img {
@@ -23,6 +23,9 @@
 
   &__name {
     font-weight: 500;
+    color: #3d3b40;
+  }
+  &:hover{
     color: #fff;
   }
 
@@ -37,9 +40,10 @@
 
   &:hover {
     background: #232323;
+    color: #fff;
   }
 
   & ~ .active {
-    background: #181818;
+    background: #378CE7;
   }
 }

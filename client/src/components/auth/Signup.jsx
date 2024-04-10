@@ -1,5 +1,5 @@
 import "./Auth.scss";
-import logo from "../../img/logo.svg";
+import logo from "../../img/logo.png";
 import { Link, Navigate } from "react-router-dom";
 import { signupUser } from "../../store/thunks/user";
 import { useDispatch, useSelector } from "react-redux";
@@ -72,8 +72,7 @@ const Signup = () => {
           </form>
 
           <p className="note">
-            ☝🏻 Please note that authentication may take a few minutes. As the server spins down a free web service that
-            goes 15 minutes without receiving inbound traffic, it takes some time to start.
+            
           </p>
         </div>
       ) : (

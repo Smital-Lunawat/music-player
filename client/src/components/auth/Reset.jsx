@@ -1,5 +1,5 @@
 import "./Auth.scss";
-import logo from "../../img/logo.svg";
+import logo from "../../img/logo.png";
 import { useDispatch, useSelector } from "react-redux";
 import { resetPassword } from "../../store/thunks/user";
 import { Navigate, useParams } from "react-router-dom";

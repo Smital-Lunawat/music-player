@@ -1,7 +1,7 @@
 {
-  "name": "spotify-clone",
+  "name": "Music-App",
   "version": "1.0.0",
-  "description": "Spotify",
+  "description": "Music-App",
   "main": "server.js",
   "scripts": {
     "start": "NODE_ENV=development nodemon server.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "mern"
   ],
-  "author": "Maqsud Tolipov",
+  "author": "Smital Lunawat",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

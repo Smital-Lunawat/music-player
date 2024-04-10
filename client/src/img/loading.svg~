@@ -1,7 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <style>
         .spinner_z9k8 {
-        fill: #1db954;
+        fill: #5356FF;
         transform-origin: center;
         animation: spinner_StKS .75s infinite linear
         }

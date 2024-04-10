@@ -99,13 +99,13 @@ exports.createSong = catchAsync(async (req, res, next) => {
   const imgKit = await imagekit.upload({
     file: req.files.img[0].buffer,
     fileName: req.files.img[0].filename,
-    folder: 'spotify/songs',
+    folder: 'Music-App/songs',
   });
 
   const songKit = await imagekit.upload({
     file: req.files.song[0].buffer,
     fileName: req.files.song[0].filename,
-    folder: 'spotify/songs',
+    folder: 'Music-App/songs',
   });
 
   const songData = {};
@@ -135,7 +135,7 @@ exports.updateSong = catchAsync(async (req, res, next) => {
     const imgKit = await imagekit.upload({
       file: req.file.buffer,
       fileName: req.file.filename,
-      folder: 'spotify/songs',
+      folder: 'Music-App/songs',
     });
     data.img = imgKit.url;
   }

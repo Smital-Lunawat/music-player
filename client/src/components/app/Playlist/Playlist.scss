@@ -7,15 +7,9 @@
     align-items: flex-end;
     gap: 2.4rem;
 
-    color: #fff;
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.25)
-      ),
-      url("https://images.unsplash.com/photo-1685521885141-89c83b12ca65?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-position: center;
-    background-size: cover;
+    color: rgba(0, 0, 0, 0.7019607843);
+    ;
+  
   }
 
   &__img {
@@ -75,11 +69,11 @@
     align-items: center;
     gap: 2.4rem;
 
-    background-image: linear-gradient(to bottom, rgba(#748b55, 0.5), #121212);
+    // background-image: linear-gradient(to bottom, rgba(#748b55, 0.5), #121212);
 
     svg {
       font-size: 7.2rem;
-      color: #1db954;
+      color: #5356ff;
       cursor: pointer;
 
       &:hover {
@@ -92,10 +86,10 @@
       color: #b3b3b3;
 
       &--active {
-        color: #1db954;
+        color: #3d3b40;
 
         &:hover {
-          color: #1db954 !important;
+          color: #5356FF !important;
         }
       }
 
@@ -110,16 +104,10 @@
   }
 }
 
-// Only for likedSongs
-.likedSongs {
-  .playlist__header {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
-      url("https://images.unsplash.com/photo-1685521887135-c2be2c51265a?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    background-position: center left;
-  }
+.playlist__header {
+  height: 30rem;
+  padding: 0 2.4rem 2.4rem 2.4rem;
 
-  .playlist__nav {
-    background-image: linear-gradient(to bottom, rgba(#a5963f, 0.5), #121212);
-  }
+  display: flex;
+  align-items: flex-end;
 }

@@ -80,7 +80,7 @@ const Admin = () => {
             <label htmlFor="name">Name</label>
             <Input type="text" name="name" id="name" placeholder="Song name" />
 
-            <Button type="submit" color="white" fullWidth={true}>
+            <Button type="submit" className="white" fullWidth={true}>
               {isUploading === "idle" && "Upload"}
               {isUploading === "uploading" && "Uploading"}
             </Button>
@@ -103,7 +103,7 @@ const Admin = () => {
           <label htmlFor="name">Name</label>
           <Input id="name" type="text" name="name" placeholder={song.name} />
 
-          <Button type="submit" color="white" fullWidth={true}>
+          <Button type="submit" className="white" fullWidth={true}>
             Update
           </Button>
           <Button
@@ -166,7 +166,7 @@ const Admin = () => {
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" placeholder={song.name} />
 
-            <Button type="submit" color="white" fullWidth={true}>
+            <Button type="submit" className="white" fullWidth={true}>
               Update
             </Button>
             <Button

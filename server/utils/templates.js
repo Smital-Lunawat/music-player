@@ -79,20 +79,6 @@ exports.welcomeTemplate = () => `
           alt=""
         />
       </div>
-      <h1 class="heading">
-        Welcome to Spotify! We are thrilled to have you join our music
-        community. 🎉
-      </h1>
-      <p class="paragraph">
-        With Spotify, you can access millions of songs and podcasts, create your
-        own playlists, and discover new music that suits your taste. 🎧
-      </p>
-      <p class="paragraph">
-        To get started, simply download the Spotify app or visit our website,
-        and sign in using your email and password. Once you're signed in, you
-        can start exploring and listening to your favorite music right away! 🎶
-      </p>
-      <p>Made with ❤️ by <a color="black" href="https://github.com/maqsudtolipov">Maqsud</a></p>
     </div>
   </body>
 </html>
@@ -193,13 +179,9 @@ exports.resetTokenTemplate = (resetToken) => `<!DOCTYPE html>
         />
       </div>
       <div class="cover">
-        <img
-          src="https://images.unsplash.com/photo-1627734819947-ba884aea9801?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80"
-          alt=""
-        />
       </div>
       <p class="paragraph">
-        We're sorry to hear that you're having trouble accessing your Spotify
+        We're sorry to hear that you're having trouble accessing your
         account. Not to worry, though – we can help you reset your password! 🔑
       </p>
       <p class="paragraph">
@@ -210,7 +192,6 @@ exports.resetTokenTemplate = (resetToken) => `<!DOCTYPE html>
       <p class="paragraph">
         If you didn't request a password reset, please ignore this email.
       </p>
-      <p>Made with ❤️ by <a color="black" href="https://github.com/maqsudtolipov">Maqsud</a></p>
     </div>
   </body>
 </html>

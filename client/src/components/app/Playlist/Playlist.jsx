@@ -82,9 +82,7 @@ const Playlist = () => {
       {userId && playlist ? (
         <div className="playlist">
           <div className="playlist__header">
-            <div className="playlist__img">
-              <img src={playlist.img} alt="Playlist cover" />
-            </div>
+
             <div>
               <p>Playlist</p>
               <h1 className="playlist__name">{playlist.name}</h1>

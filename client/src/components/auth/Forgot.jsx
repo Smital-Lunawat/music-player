@@ -1,5 +1,5 @@
 import "./Auth.scss";
-import logo from "../../img/logo.svg";
+import logo from "../../img/logo.png";
 import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 import { useState } from "react";
