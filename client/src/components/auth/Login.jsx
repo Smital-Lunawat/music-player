@@ -47,9 +47,9 @@ const Login = () => {
               required={true}
               onChange={(e) => setPassword(e.target.value)}
             />
-            <Link to="/forgotPassword" className="auth__form-link">
+            {/* <Link to="/forgotPassword" className="auth__form-link">
               Forgot password?
-            </Link>
+            </Link> */}
 
             <Button type="submit" isLoading={user.loading}>Login</Button>
           </form>

@@ -162,7 +162,7 @@ const Playlist = () => {
                 cols="30"
                 placeholder="Add an optional description"
               ></textarea>
-              <Button type="submit" color="white" fullWidth={true}>
+              <Button type="submit" className="white" fullWidth={true}>
                 Save
               </Button>
               <Button

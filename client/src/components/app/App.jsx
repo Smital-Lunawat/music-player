@@ -9,7 +9,7 @@ const App = (props) => {
 
   return (
     <div className="app">
-      <div className="app__nav">
+      {/* <div className="app__nav">
         <div className="app__nav__history">
           <div className="app__nav__history-icon">
             <RiArrowLeftSLine onClick={() => navigate(-1)} />
@@ -26,7 +26,7 @@ const App = (props) => {
             className="app__nav__profile--img"
           />
         </div>
-      </div>
+      </div> */}
       {props.children}
     </div>
   );
