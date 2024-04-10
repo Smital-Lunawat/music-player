@@ -36,3 +36,12 @@ cd project-directory
 npm install
 ```
 
+## Setting up the environment variables
+Set up the .env file for variables used on server side such as -**DATABASE, CLIENT_URL, JWT_SECRET, IK_PUBLIC, IK_PRIVATE, IK_URL** 
+Set up the .env file for variables used on client side such as -**VITE_SERVER_URL** 
+
+
+
+
+
+
