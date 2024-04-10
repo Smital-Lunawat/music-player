@@ -129,3 +129,5 @@ dist
 .idea/
 
 server/songs/
+
+vercel.json
