@@ -24,6 +24,7 @@ Follow these steps to set up the project on your local machine:
 ## Clone the Repository
 ```bash
 git clone <repository-url>
+```
 
 ## Navigate to project directories
 cd project-directory
