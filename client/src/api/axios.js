@@ -1,6 +1,11 @@
 import axios from "axios";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
 
 
@@ -10,7 +15,11 @@ export default axios.create({
   withCredentials: true,
   headers: {
 <<<<<<< HEAD
+<<<<<<< HEAD
     // "Content-type": "application/json",
+=======
+    "Content-type": "application/json",
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
     "Content-type": "application/json",
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

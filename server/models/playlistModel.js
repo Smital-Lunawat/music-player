@@ -18,7 +18,11 @@ const playlistSchema = new mongoose.Schema(
       type: String,
       default:
 <<<<<<< HEAD
+<<<<<<< HEAD
         'https://ik.imagekit.io/fvjzmtfw7/spotify/playlists/default.png?updatedAt=1696157039341',
+=======
+        'https://ik.imagekit.io/8cs4gpobr/Music-App/playlists/default.png?updatedAt=1696157039341',
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
         'https://ik.imagekit.io/8cs4gpobr/Music-App/playlists/default.png?updatedAt=1696157039341',
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

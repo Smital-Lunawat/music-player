@@ -29,6 +29,10 @@ const createSendToken = (user, statusCode, req, res) => {
   res.status(statusCode).json({
     status: 'success',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // token,
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
     // token,
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -48,7 +52,11 @@ exports.signUp = catchAsync(async (req, res, next) => {
   const user = await User.create(userData);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   // await new Email(user).sendWelcome();
+=======
+  await new Email(user).sendWelcome();
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   await new Email(user).sendWelcome();
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -146,6 +154,11 @@ exports.isLoggedIn = catchAsync(async (req, res, next) => {
       );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      console.log(decoded);
+
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       console.log(decoded);
 
@@ -211,7 +224,11 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   await user.save({ validateBeforeSave: false });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   // await new Email(user).sendResetToken(resetToken);
+=======
+  await new Email(user).sendResetToken(resetToken);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   await new Email(user).sendResetToken(resetToken);
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

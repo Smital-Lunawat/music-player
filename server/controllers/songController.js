@@ -100,7 +100,11 @@ exports.createSong = catchAsync(async (req, res, next) => {
     file: req.files.img[0].buffer,
     fileName: req.files.img[0].filename,
 <<<<<<< HEAD
+<<<<<<< HEAD
     folder: 'spotify/songs',
+=======
+    folder: 'Music-App/songs',
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
     folder: 'Music-App/songs',
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -110,7 +114,11 @@ exports.createSong = catchAsync(async (req, res, next) => {
     file: req.files.song[0].buffer,
     fileName: req.files.song[0].filename,
 <<<<<<< HEAD
+<<<<<<< HEAD
     folder: 'spotify/songs',
+=======
+    folder: 'Music-App/songs',
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
     folder: 'Music-App/songs',
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -144,7 +152,11 @@ exports.updateSong = catchAsync(async (req, res, next) => {
       file: req.file.buffer,
       fileName: req.file.filename,
 <<<<<<< HEAD
+<<<<<<< HEAD
       folder: 'spotify/songs',
+=======
+      folder: 'Music-App/songs',
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       folder: 'Music-App/songs',
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

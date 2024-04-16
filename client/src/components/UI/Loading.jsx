@@ -13,7 +13,13 @@ const Loading = ({ main = false, fullHeight = false }) => {
             <Link to="signup">please sign up here</Link>
           </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
           
+=======
+          <p className="note">
+            
+          </p>
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
           <p className="note">
             

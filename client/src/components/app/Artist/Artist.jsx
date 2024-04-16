@@ -22,7 +22,11 @@ const Artist = () => {
   }, [id]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const userFollowedArtist = (id) => {
+=======
+  const FollowedArtists = (id) => {
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   const FollowedArtists = (id) => {
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -40,7 +44,12 @@ const Artist = () => {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const replaceQueueHandler = (songs) => {
+=======
+  const queryHandler
+   = (songs) => {
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   const queryHandler
    = (songs) => {
@@ -65,8 +74,14 @@ const Artist = () => {
 
           <div className="artist__nav">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <RiPlayCircleFill onClick={() => replaceQueueHandler(artist.songs)} />
             {!userFollowedArtist(artist.id) ? (
+=======
+            <RiPlayCircleFill onClick={() => queryHandler
+              (artist.songs)} />
+            {!FollowedArtists(artist.id) ? (
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
             <RiPlayCircleFill onClick={() => queryHandler
               (artist.songs)} />

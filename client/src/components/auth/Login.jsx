@@ -48,9 +48,15 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Link to="/forgotPassword" className="auth__form-link">
               Forgot password?
             </Link>
+=======
+            {/* <Link to="/forgotPassword" className="auth__form-link">
+              Forgot password?
+            </Link> */}
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
             {/* <Link to="/forgotPassword" className="auth__form-link">
               Forgot password?
@@ -61,6 +67,10 @@ const Login = () => {
           </form>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+       
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
        
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

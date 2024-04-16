@@ -80,6 +80,7 @@ exports.welcomeTemplate = () => `
         />
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <h1 class="heading">
         Welcome to Spotify! We are thrilled to have you join our music
         community. 🎉
@@ -94,6 +95,8 @@ exports.welcomeTemplate = () => `
         can start exploring and listening to your favorite music right away! 🎶
       </p>
       <p>Made with ❤️ by <a color="black" href="https://github.com/maqsudtolipov">Maqsud</a></p>
+=======
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     </div>
@@ -197,6 +200,7 @@ exports.resetTokenTemplate = (resetToken) => `<!DOCTYPE html>
       </div>
       <div class="cover">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <img
           src="https://images.unsplash.com/photo-1627734819947-ba884aea9801?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80"
           alt=""
@@ -204,6 +208,11 @@ exports.resetTokenTemplate = (resetToken) => `<!DOCTYPE html>
       </div>
       <p class="paragraph">
         We're sorry to hear that you're having trouble accessing your Spotify
+=======
+      </div>
+      <p class="paragraph">
+        We're sorry to hear that you're having trouble accessing your
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       </div>
       <p class="paragraph">
@@ -220,7 +229,10 @@ exports.resetTokenTemplate = (resetToken) => `<!DOCTYPE html>
         If you didn't request a password reset, please ignore this email.
       </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <p>Made with ❤️ by <a color="black" href="https://github.com/maqsudtolipov">Maqsud</a></p>
+=======
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     </div>

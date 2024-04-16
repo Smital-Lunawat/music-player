@@ -25,7 +25,11 @@ const Admin = () => {
   const dispatch = useDispatch();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const formRef = useRef();
+=======
+  const formReferences = useRef();
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   const formReferences = useRef();
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -42,7 +46,11 @@ const Admin = () => {
     e.preventDefault();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     const formData = new FormData(formRef.current);
+=======
+    const formData = new FormData(formReferences.current);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
     const formData = new FormData(formReferences.current);
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -65,7 +73,11 @@ const Admin = () => {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const deleteSongHandler = (id) => {
+=======
+  const SongDelete = (id) => {
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   const SongDelete = (id) => {
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -83,7 +95,11 @@ const Admin = () => {
           handleClose={handleCloseModal}
         >
 <<<<<<< HEAD
+<<<<<<< HEAD
           <form ref={formRef} onSubmit={formSubmitHandler}>
+=======
+          <form ref={formReferences} onSubmit={formSubmitHandler}>
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
           <form ref={formReferences} onSubmit={formSubmitHandler}>
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -183,7 +199,11 @@ const Admin = () => {
             <input type="text" name="name" id="name" placeholder={song.name} />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Button type="submit" color="white" fullWidth={true}>
+=======
+            <Button type="submit" className="white" fullWidth={true}>
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
             <Button type="submit" className="white" fullWidth={true}>
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

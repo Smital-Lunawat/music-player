@@ -10,7 +10,11 @@ const App = (props) => {
   return (
     <div className="app">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="app__nav">
+=======
+      {/* <div className="app__nav">
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       {/* <div className="app__nav">
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -31,7 +35,11 @@ const App = (props) => {
           />
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       </div>
+=======
+      </div> */}
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       </div> */}
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

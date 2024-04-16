@@ -12,7 +12,11 @@ const Home = () => {
   );
   const [topSongs, setTopSongs] = useState([]);
 <<<<<<< HEAD
+<<<<<<< HEAD
   const [newReleases, setNewReleases] = useState([]);
+=======
+  const [newSongs, setNewSongs] = useState([]);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
   const [newSongs, setNewSongs] = useState([]);
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -25,7 +29,11 @@ const Home = () => {
 
       setTopSongs(res.data.data.songs);
 <<<<<<< HEAD
+<<<<<<< HEAD
       setNewReleases(res2.data.data.songs);
+=======
+      setNewSongs(res2.data.data.songs);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       setNewSongs(res2.data.data.songs);
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -41,6 +49,7 @@ const Home = () => {
         <div className="home">
           <h1 className="h1" onClick={() => toast.success("Wow crazy")}>
 <<<<<<< HEAD
+<<<<<<< HEAD
             Good evening, wanna listen some music !?
           </h1>
 
@@ -50,6 +59,8 @@ const Home = () => {
           <h2 className="h2">New Releases</h2>
           <SquareList list={newReleases} type={"song"} />
 =======
+=======
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
             Hey, wanna listen some music !?
           </h1>
 
@@ -58,6 +69,9 @@ const Home = () => {
 
           <h2 className="h2">New Songs</h2>
           <SquareList list={newSongs} type={"song"} />
+<<<<<<< HEAD
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
+=======
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
           {followedArtists.length > 0 && (

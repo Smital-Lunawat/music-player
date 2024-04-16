@@ -21,8 +21,14 @@ import "react-toastify/dist/ReactToastify.css";
 import Admin from "./components/admin/Admin";
 import Loading from "./components/UI/Loading";
 <<<<<<< HEAD
+<<<<<<< HEAD
 function AppRoutes() {
   const user = useSelector((state) => state.user);
+=======
+
+function AppRoutes() {
+  const user_selector = useSelector((state) => state.user);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
 
 function AppRoutes() {
@@ -37,7 +43,11 @@ function AppRoutes() {
   return (
     <BrowserRouter>
 <<<<<<< HEAD
+<<<<<<< HEAD
       {user.auth === true && (
+=======
+      {user_selector.auth === true && (
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       {user_selector.auth === true && (
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
@@ -62,7 +72,11 @@ function AppRoutes() {
       )}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       {user.auth === false && (
+=======
+      {user_selector.auth === false && (
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
       {user_selector.auth === false && (
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49

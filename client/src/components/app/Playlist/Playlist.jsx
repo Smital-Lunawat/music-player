@@ -83,9 +83,13 @@ const Playlist = () => {
         <div className="playlist">
           <div className="playlist__header">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className="playlist__img">
               <img src={playlist.img} alt="Playlist cover" />
             </div>
+=======
+
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 =======
 
 >>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
