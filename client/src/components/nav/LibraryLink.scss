@@ -1,0 +1,49 @@
+.library-link {
+  padding: 1.2rem;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.6rem;
+
+  font: inherit;
+  text-decoration: none;
+  color: #3d3b40;
+  border-radius: 6px;
+
+  img {
+    width: 6.4rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  &__name {
+    font-weight: 500;
+    color: #3d3b40;
+  }
+  &:hover{
+    color: #fff;
+  }
+
+  &__type {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  &--artist img {
+    border-radius: 5rem !important;
+  }
+
+  &:hover {
+    background: #232323;
+    color: #fff;
+  }
+
+  & ~ .active {
+    background: #378CE7;
+  }
+}

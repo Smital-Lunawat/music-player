@@ -1,0 +1,121 @@
+.playlist {
+  &__header {
+    height: 40rem;
+    padding: 0 2.4rem 2.4rem 2.4rem;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 2.4rem;
+
+    color: rgba(0, 0, 0, 0.7019607843);
+    ;
+  
+  }
+
+  &__img {
+    height: 24rem;
+    width: 24rem;
+    min-width: 24rem;
+
+    img {
+      height: 100%;
+      width: 100%;
+
+      box-shadow: 0 1.6rem 4.8rem rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &__name {
+    margin-bottom: 1.2rem;
+
+    font-size: 6.4rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  &__des {
+    margin-bottom: 1.6rem;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    &-img {
+      height: 2.4rem;
+      width: 2.4rem;
+
+      border-radius: 50%;
+    }
+
+    &-name {
+      font-weight: 600;
+    }
+
+    &-songs::before {
+      margin-right: 0.8rem;
+
+      content: "•";
+
+      font-weight: bold;
+    }
+  }
+
+  &__nav {
+    padding: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+
+    // background-image: linear-gradient(to bottom, rgba(#748b55, 0.5), #121212);
+
+    svg {
+      font-size: 7.2rem;
+      color: #5356ff;
+      cursor: pointer;
+
+      &:hover {
+        scale: 1.05;
+      }
+    }
+
+    .heart {
+      font-size: 4.2rem;
+      color: #b3b3b3;
+
+      &--active {
+        color: #3d3b40;
+
+        &:hover {
+          color: #5356FF !important;
+        }
+      }
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &__songs {
+    padding: 0 2.4rem 2.4rem 2.4rem;
+  }
+}
+
+.playlist__header {
+  height: 50rem;
+  padding: 0 2.4rem 2.4rem 2.4rem;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+
+  &.white {
+    background-color: #5356ff; 
+    color: #fff; 
+  }
+}
