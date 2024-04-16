@@ -11,7 +11,11 @@ const Home = () => {
     (state) => state.user.data,
   );
   const [topSongs, setTopSongs] = useState([]);
+<<<<<<< HEAD
   const [newReleases, setNewReleases] = useState([]);
+=======
+  const [newSongs, setNewSongs] = useState([]);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
   // FIXME: Refactor and fix data lost on re-render
   useEffect(() => {
@@ -20,7 +24,11 @@ const Home = () => {
       const res2 = await axios.get(`/songs?sort=-createdAt&limit=5`);
 
       setTopSongs(res.data.data.songs);
+<<<<<<< HEAD
       setNewReleases(res2.data.data.songs);
+=======
+      setNewSongs(res2.data.data.songs);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     };
 
     fetcher();
@@ -32,6 +40,7 @@ const Home = () => {
         <div className="home__img" />
         <div className="home">
           <h1 className="h1" onClick={() => toast.success("Wow crazy")}>
+<<<<<<< HEAD
             Good evening, wanna listen some music !?
           </h1>
 
@@ -40,6 +49,16 @@ const Home = () => {
 
           <h2 className="h2">New Releases</h2>
           <SquareList list={newReleases} type={"song"} />
+=======
+            Hey, wanna listen some music !?
+          </h1>
+
+          <h2 className="h2">Trending Songs</h2>
+          <SquareList list={topSongs} type={"song"} />
+
+          <h2 className="h2">New Songs</h2>
+          <SquareList list={newSongs} type={"song"} />
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
           {followedArtists.length > 0 && (
             <>

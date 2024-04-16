@@ -62,8 +62,11 @@ export const userSlice = createSlice({
       .addCase(isLoggedIn.fulfilled, (state, action) => {
         state.data = action.payload.data;
         state.auth = true;
+<<<<<<< HEAD
 
         toast.success("Welcome back");
+=======
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
       })
       .addCase(isLoggedIn.rejected, (state, action) => {
         state.auth = false;

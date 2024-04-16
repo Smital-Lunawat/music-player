@@ -28,6 +28,10 @@ const createSendToken = (user, statusCode, req, res) => {
 
   res.status(statusCode).json({
     status: 'success',
+<<<<<<< HEAD
+=======
+    // token,
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     data: { user },
   });
 };
@@ -43,7 +47,11 @@ exports.signUp = catchAsync(async (req, res, next) => {
 
   const user = await User.create(userData);
 
+<<<<<<< HEAD
   // await new Email(user).sendWelcome();
+=======
+  await new Email(user).sendWelcome();
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
   createSendToken(user, 201, req, res);
 });
@@ -137,6 +145,11 @@ exports.isLoggedIn = catchAsync(async (req, res, next) => {
         process.env.JWT_SECRET
       );
 
+<<<<<<< HEAD
+=======
+      console.log(decoded);
+
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
       const user = await User.findById(decoded.id)
         .populate('playlists')
         .populate('followedArtists', 'name img role')
@@ -197,7 +210,11 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   const resetToken = user.createPasswordResetToken();
   await user.save({ validateBeforeSave: false });
 
+<<<<<<< HEAD
   // await new Email(user).sendResetToken(resetToken);
+=======
+  await new Email(user).sendResetToken(resetToken);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
   res.status(200).json({
     status: 'success',

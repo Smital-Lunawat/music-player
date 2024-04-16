@@ -24,7 +24,11 @@ const Admin = () => {
   const { songs, isUploading } = useSelector((state) => state.admin);
   const dispatch = useDispatch();
 
+<<<<<<< HEAD
   const formRef = useRef();
+=======
+  const formReferences = useRef();
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
   const editFormRef = useRef();
 
   useEffect(() => {
@@ -37,7 +41,11 @@ const Admin = () => {
   const formSubmitHandler = (e) => {
     e.preventDefault();
 
+<<<<<<< HEAD
     const formData = new FormData(formRef.current);
+=======
+    const formData = new FormData(formReferences.current);
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     dispatch(uploadSong({ data: formData }));
   };
 
@@ -56,7 +64,11 @@ const Admin = () => {
     setEditModalOpen(false);
   };
 
+<<<<<<< HEAD
   const deleteSongHandler = (id) => {
+=======
+  const SongDelete = (id) => {
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     dispatch(deleteSong(id));
     setEditModalOpen(false);
   };
@@ -70,7 +82,11 @@ const Admin = () => {
           open={uploadModalOpen}
           handleClose={handleCloseModal}
         >
+<<<<<<< HEAD
           <form ref={formRef} onSubmit={formSubmitHandler}>
+=======
+          <form ref={formReferences} onSubmit={formSubmitHandler}>
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
             <label htmlFor="img">Img</label>
             <Input id="img" type="file" name="img" placeholder="Img" />
 
@@ -166,7 +182,11 @@ const Admin = () => {
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" placeholder={song.name} />
 
+<<<<<<< HEAD
             <Button type="submit" color="white" fullWidth={true}>
+=======
+            <Button type="submit" className="white" fullWidth={true}>
+>>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
               Update
             </Button>
             <Button
