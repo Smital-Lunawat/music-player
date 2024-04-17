@@ -45,11 +45,7 @@ exports.updateMe = catchAsync(async (req, res, next) => {
     const imgKit = await imagekit.upload({
       file: req.file.buffer,
       fileName: req.file.filename,
-<<<<<<< HEAD
       folder: 'spotify/users',
-=======
-      folder: 'Music-App/users',
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     });
     data.img = imgKit.url;
   }

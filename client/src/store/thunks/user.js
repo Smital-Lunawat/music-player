@@ -1,9 +1,5 @@
 import axios from "../../api/axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
-<<<<<<< HEAD
-=======
-// import { error } from "console";
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 import { toast } from "react-toastify";
 
 export const loginUser = createAsyncThunk(
@@ -36,11 +32,7 @@ export const signupUser = createAsyncThunk(
         passwordConfirm,
       });
 
-<<<<<<< HEAD
       toast.success("Welcome to spotify!");
-=======
-      toast.success("Welcome to Music-App!");
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
       return { data: res.data.data.user, auth: true };
     } catch (err) {
@@ -55,11 +47,6 @@ export const isLoggedIn = createAsyncThunk(
     try {
       const res = await axios.get("/users/isLoggedIn");
 
-<<<<<<< HEAD
-=======
-      toast.success("Welcome back");
-
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
       return { data: res.data.data.user, auth: true };
     } catch (err) {
       return rejectWithValue(err);

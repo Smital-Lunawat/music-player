@@ -27,10 +27,6 @@ const Signup = () => {
     else if (!isValidEmail(email)) {
       return toast.warn("Email is not valid");
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
     dispatch(signupUser({ name, email, password, passwordConfirm }));
   };
 
@@ -75,13 +71,7 @@ const Signup = () => {
             </Button>
           </form>
 
-<<<<<<< HEAD
           
-=======
-          <p className="note">
-            
-          </p>
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
         </div>
       ) : (
         <Navigate to={"/"}/>

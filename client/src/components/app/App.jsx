@@ -9,11 +9,7 @@ const App = (props) => {
 
   return (
     <div className="app">
-<<<<<<< HEAD
       <div className="app__nav">
-=======
-      {/* <div className="app__nav">
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
         <div className="app__nav__history">
           <div className="app__nav__history-icon">
             <RiArrowLeftSLine onClick={() => navigate(-1)} />
@@ -30,11 +26,7 @@ const App = (props) => {
             className="app__nav__profile--img"
           />
         </div>
-<<<<<<< HEAD
       </div>
-=======
-      </div> */}
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
       {props.children}
     </div>
   );

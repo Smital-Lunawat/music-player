@@ -47,23 +47,13 @@ const Login = () => {
               required={true}
               onChange={(e) => setPassword(e.target.value)}
             />
-<<<<<<< HEAD
             <Link to="/forgotPassword" className="auth__form-link">
               Forgot password?
             </Link>
-=======
-            {/* <Link to="/forgotPassword" className="auth__form-link">
-              Forgot password?
-            </Link> */}
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
 
             <Button type="submit" isLoading={user.loading}>Login</Button>
           </form>
 
-<<<<<<< HEAD
-=======
-       
->>>>>>> 3ecb8773ae3da311b4c4ebbe51aa69155fa49a49
         </div>
       ) : (
         <Navigate to={"/"}/>
